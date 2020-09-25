@@ -47,3 +47,4 @@ buck-out/
 .vscode
 
 yarn.lock
+android/.cxx

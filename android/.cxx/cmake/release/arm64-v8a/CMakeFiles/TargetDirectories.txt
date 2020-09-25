@@ -1,4 +1,0 @@
-F:/oodles/Lisnen/24-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/release/arm64-v8a/CMakeFiles/vggsup.dir
-F:/oodles/Lisnen/24-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir
-F:/oodles/Lisnen/24-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
-F:/oodles/Lisnen/24-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
