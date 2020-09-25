@@ -3,6 +3,62 @@ import { NativeModules, Image } from 'react-native';
 const { TfliteReactNative } = NativeModules;
 
 class Tflite {
+
+
+  //Eryaa Methods starts
+  runOnWAVFile(args, callback) {
+    TfliteReactNative.runOnWAVFile(
+      args['path']);
+  }
+
+  loadAudioClassifierModel(args, callback) {
+    TfliteReactNative.loadAudioClassifierModel(
+      args['vggishModelPath'],
+      args['classifierModelPath'],
+      args['labelsPathCSV'] || '',
+      args['numThreads'] || 1,
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+
+  runAudioClassifier(args, callback) {
+    TfliteReactNative.runAudioClassifier(
+      args['path'],
+      args['mean'] != null ? args['mean'] : 127.5,
+      args['std'] != null ? args['std'] : 127.5,
+      args['numResults'] || 5,
+      args['threshold'] != null ? args['threshold'] : 0.1,
+      args['maxResults'] || 1,
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+
+  
+
+  startRecorder(callback) {
+    TfliteReactNative.startRecorder(
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+  stopRecorder(callback) {
+    TfliteReactNative.startRecorder(
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+
+  getResult(callback) {
+    TfliteReactNative.getResult(
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+
+  //Eryaa Methods Ends
+
   loadModel(args, callback) {
     TfliteReactNative.loadModel(
       args['model'],
@@ -13,6 +69,18 @@ class Tflite {
       });
   }
 
+  loadAudioModel(args, callback) {
+    TfliteReactNative.loadAudioModel(
+      args['model'],
+      args['labels'] || '',
+      args['numThreads'] || 1,
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+  
+
+
   runModelOnImage(args, callback) {
     TfliteReactNative.runModelOnImage(
       args['path'],
@@ -20,6 +88,21 @@ class Tflite {
       args['imageStd'] != null ? args['imageStd'] : 127.5,
       args['numResults'] || 5,
       args['threshold'] != null ? args['threshold'] : 0.1,
+      (error, response) => {
+        callback && callback(error, response);
+      });
+  }
+
+
+
+  runModelOnRealAudio(args, callback) {
+    TfliteReactNative.runModelOnRealAudio(
+      args['path'],
+      args['imageMean'] != null ? args['imageMean'] : 127.5,
+      args['imageStd'] != null ? args['imageStd'] : 127.5,
+      args['numResults'] || 5,
+      args['threshold'] != null ? args['threshold'] : 0.1,
+      args['maxResults'] || 1,
       (error, response) => {
         callback && callback(error, response);
       });
