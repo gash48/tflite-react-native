@@ -1,0 +1,4 @@
+G:/25-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/vggsup.dir
+G:/25-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
+G:/25-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+G:/25-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

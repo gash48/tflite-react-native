@@ -1,0 +1,18 @@
+# ninja log v5
+17	453	622749180	CMakeFiles/vggsup.dir/postprocess.c.o	e8e68cfc44e42cbd
+13	482	622749180	CMakeFiles/vggsup.dir/pca.c.o	69fcfcc611a3c2a2
+9	494	622749180	CMakeFiles/vggsup.dir/kiss_fftr.c.o	77d05d17d68c9f2e
+5	566	622749180	CMakeFiles/vggsup.dir/preprocess.c.o	2f8c4c499e1934ba
+0	573	622749180	CMakeFiles/vggsup.dir/kiss_fft.c.o	9777bfd9678af8c0
+573	1066	622749181	libvggsup.a	d92047d93da12a29
+20	1163	622749181	CMakeFiles/native-lib.dir/native-lib.cpp.o	33d4bc06a6f92ced
+1166	1574	622749181	G:/25-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	12d47aa562b37ff8
+0	25	0	clean	4991aa9a9a6b9aab
+10	482	622750214	CMakeFiles/vggsup.dir/pca.c.o	69fcfcc611a3c2a2
+23	843	622750214	CMakeFiles/vggsup.dir/postprocess.c.o	e8e68cfc44e42cbd
+7	879	622750214	CMakeFiles/vggsup.dir/kiss_fftr.c.o	77d05d17d68c9f2e
+14	920	622750214	CMakeFiles/vggsup.dir/preprocess.c.o	2f8c4c499e1934ba
+3	931	622750214	CMakeFiles/vggsup.dir/kiss_fft.c.o	9777bfd9678af8c0
+932	2050	622750216	libvggsup.a	d92047d93da12a29
+20	2481	622750216	CMakeFiles/native-lib.dir/native-lib.cpp.o	33d4bc06a6f92ced
+2482	3443	622750217	G:/25-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	12d47aa562b37ff8

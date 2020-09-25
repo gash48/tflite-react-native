@@ -1,0 +1,9 @@
+# ninja log v5
+25	588	622639140	CMakeFiles/vggsup.dir/postprocess.c.o	87413964c08c588
+18	591	622639140	CMakeFiles/vggsup.dir/pca.c.o	fd5781d25a8361c3
+6	606	622639140	CMakeFiles/vggsup.dir/kiss_fftr.c.o	880b2d8827ff7648
+22	794	622639141	CMakeFiles/vggsup.dir/preprocess.c.o	118d7bda9dc19360
+1	805	622639141	CMakeFiles/vggsup.dir/kiss_fft.c.o	82a6f635380a357f
+30	1837	622639142	CMakeFiles/native-lib.dir/native-lib.cpp.o	f2bdf5f468e34fdc
+805	2000	622639142	libvggsup.a	233afac05bd2578f
+2000	2276	622639142	F:/oodles/Lisnen/24-09/react-nativ-tflite-audio/node_modules/tflite-react-native/android/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so	a91eaa601d30ee44

@@ -1,0 +1,9 @@
+ninja: Entering directory `F:\oodles\Lisnen\24-09\react-nativ-tflite-audio\node_modules\tflite-react-native\android\.cxx\cmake\release\arm64-v8a'
+[1/8] Building C object CMakeFiles/vggsup.dir/postprocess.c.o
+[2/8] Building C object CMakeFiles/vggsup.dir/pca.c.o
+[3/8] Building C object CMakeFiles/vggsup.dir/kiss_fftr.c.o
+[4/8] Building C object CMakeFiles/vggsup.dir/preprocess.c.o
+[5/8] Building C object CMakeFiles/vggsup.dir/kiss_fft.c.o
+[6/8] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[7/8] Linking C static library libvggsup.a
+[8/8] Linking CXX shared library F:\oodles\Lisnen\24-09\react-nativ-tflite-audio\node_modules\tflite-react-native\android\build\intermediates\cmake\release\obj\arm64-v8a\libnative-lib.so

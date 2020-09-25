@@ -1,0 +1,7 @@
+Executable : C:\Users\akashdeep\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+F:\oodles\Lisnen\24-09\react-nativ-tflite-audio\node_modules\tflite-react-native\android\.cxx\cmake\release\x86_64
+native-lib
+jvmArgs : 
+

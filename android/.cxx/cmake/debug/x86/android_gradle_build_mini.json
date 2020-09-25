@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "C:\\Users\\akashdeep\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\akashdeep\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\akashdeep\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\.cxx\\cmake\\debug\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\akashdeep\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "vggsup-Debug-x86": {
+      "artifactName": "vggsup",
+      "buildCommand": "C:\\Users\\akashdeep\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\.cxx\\cmake\\debug\\x86\" vggsup",
+      "abi": "x86",
+      "output": "G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\.cxx\\cmake\\debug\\x86\\libvggsup.a"
+    },
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\akashdeep\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\.cxx\\cmake\\debug\\x86\" native-lib",
+      "abi": "x86",
+      "output": "G:\\25-09\\react-nativ-tflite-audio\\node_modules\\tflite-react-native\\android\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

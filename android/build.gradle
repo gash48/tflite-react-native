@@ -14,13 +14,31 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
+    ndkVersion "20.0.5594570"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 23
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+        
+
+
+          externalNativeBuild {
+            cmake {
+                //  cppFlags "-std=c++11 -fexceptions"
+                arguments "-DCMAKE_ANDROID_STL_TYPE=llvm-libc++_static"
+            }
+        }
     }
+
+       externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+
     lintOptions {
         abortOnError false
     }
@@ -33,4 +51,7 @@ repositories {
 dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation 'org.tensorflow:tensorflow-lite:+'
+    implementation 'org.tensorflow:tensorflow-lite-gpu:0.0.0-nightly'
+    implementation 'org.tensorflow:tensorflow-lite-support:0.0.0-nightly'
+    
 }
